@@ -1,0 +1,38 @@
+main {
+    padding: 3rem 1.5rem 1rem calc(1.5rem + 100px);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+ul li {
+    margin-bottom: 1.6rem;
+    list-style: none;
+}
+
+time {
+    font-size: 1rem;
+    color: #666
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.7rem;
+
+}
+
+.flex-wrap {
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        padding-left: calc(1.5rem + 50px);
+    }
+}
